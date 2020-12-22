@@ -16,10 +16,10 @@ import (
 	"github.com/ipfs/go-cid"
 	mh "github.com/multiformats/go-multihash"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin/miner"
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin/power"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime/proof"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin/miner"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin/power"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime/proof"
 )
 
 type MinerAgentConfig struct {

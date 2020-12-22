@@ -6,8 +6,8 @@ import (
 	cron0 "github.com/filecoin-project/specs-actors/actors/builtin/cron"
 	"github.com/ipfs/go-cid"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime"
 )
 
 // The cron actor is a built-in singleton that sends messages to other registered actors at the end of each epoch.

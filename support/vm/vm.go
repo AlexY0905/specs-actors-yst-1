@@ -15,11 +15,11 @@ import (
 	"github.com/ipfs/go-cid"
 	"github.com/pkg/errors"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	init_ "github.com/filecoin-project/specs-actors/v2/actors/builtin/init"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime"
-	"github.com/filecoin-project/specs-actors/v2/actors/states"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/adt"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	init_ "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/init"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/states"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
 )
 
 // VM is a simplified message execution framework for the purposes of testing inter-actor communication.

@@ -15,9 +15,9 @@ import (
 	errors "github.com/pkg/errors"
 	xerrors "golang.org/x/xerrors"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	. "github.com/filecoin-project/specs-actors/v2/actors/util"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/adt"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	. "github.com/AlexY0905/specs-actors-yst-1/actors/util"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
 )
 
 // Balance of Miner Actor should be greater than or equal to

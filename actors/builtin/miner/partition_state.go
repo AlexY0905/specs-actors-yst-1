@@ -10,8 +10,8 @@ import (
 	"github.com/ipfs/go-cid"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/util"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/adt"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
 )
 
 type Partition struct {

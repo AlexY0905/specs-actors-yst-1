@@ -12,9 +12,9 @@ import (
 	mh "github.com/multiformats/go-multihash"
 	cbg "github.com/whyrusleeping/cbor-gen"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime"
-	tutil "github.com/filecoin-project/specs-actors/v2/support/testing"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime"
+	tutil "github.com/AlexY0905/specs-actors-yst-1/support/testing"
 )
 
 type FakeActor struct{}

@@ -21,15 +21,15 @@ import (
 	cbg "github.com/whyrusleeping/cbor-gen"
 	"golang.org/x/xerrors"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin/market"
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin/power"
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin/reward"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime/proof"
-	. "github.com/filecoin-project/specs-actors/v2/actors/util"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/adt"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/smoothing"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin/market"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin/power"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin/reward"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime/proof"
+	. "github.com/AlexY0905/specs-actors-yst-1/actors/util"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/smoothing"
 )
 
 type Runtime = runtime.Runtime
@@ -1811,7 +1811,7 @@ func processEarlyTerminations(rt Runtime) (more bool) {
 
 	// TODO: We're using the current power+epoch reward. Technically, we
 	// should use the power/reward at the time of termination.
-	// https://github.com/filecoin-project/specs-actors/v2/pull/648
+	// https://github.com/AlexY0905/specs-actors-yst-1/pull/648
 	rewardStats := requestCurrentEpochBlockReward(rt)
 	pwrTotal := requestCurrentTotalPower(rt)
 

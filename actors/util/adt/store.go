@@ -8,7 +8,7 @@ import (
 	cid "github.com/ipfs/go-cid"
 	ipldcbor "github.com/ipfs/go-ipld-cbor"
 
-	vmr "github.com/filecoin-project/specs-actors/v2/actors/runtime"
+	vmr "github.com/AlexY0905/specs-actors-yst-1/actors/runtime"
 )
 
 // Store defines an interface required to back the ADTs in this package.

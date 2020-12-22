@@ -11,12 +11,12 @@ import (
 	"github.com/ipfs/go-cid"
 
 	rtt "github.com/filecoin-project/go-state-types/rt"
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	initact "github.com/filecoin-project/specs-actors/v2/actors/builtin/init"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime/proof"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/adt"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/smoothing"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	initact "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/init"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime/proof"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/smoothing"
 )
 
 type Runtime = runtime.Runtime

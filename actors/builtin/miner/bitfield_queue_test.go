@@ -10,9 +10,9 @@ import (
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin/miner"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/adt"
-	"github.com/filecoin-project/specs-actors/v2/support/mock"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin/miner"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
+	"github.com/AlexY0905/specs-actors-yst-1/support/mock"
 )
 
 func TestBitfieldQueue(t *testing.T) {

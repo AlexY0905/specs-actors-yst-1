@@ -1,4 +1,4 @@
-module github.com/AlexY0905/specs-actors
+module github.com/AlexY0905/specs-actors-yst-1
 
 go 1.13
 

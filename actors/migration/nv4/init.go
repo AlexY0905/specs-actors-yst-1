@@ -9,7 +9,7 @@ import (
 	cbor "github.com/ipfs/go-ipld-cbor"
 	"golang.org/x/xerrors"
 
-	init2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/init"
+	init2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/init"
 )
 
 type initMigrator struct {

@@ -7,9 +7,9 @@ import (
 	"github.com/filecoin-project/go-state-types/big"
 	"github.com/stretchr/testify/assert"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/math"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/smoothing"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/math"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/smoothing"
 )
 
 // project of cumsum ratio is equal to cumsum of ratio of projections

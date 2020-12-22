@@ -12,12 +12,12 @@ import (
 	cbor "github.com/ipfs/go-ipld-cbor"
 	"golang.org/x/xerrors"
 
-	builtin2 "github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	account2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/account"
-	init2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/init"
-	verifreg2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/verifreg"
-	"github.com/filecoin-project/specs-actors/v2/actors/states"
-	adt2 "github.com/filecoin-project/specs-actors/v2/actors/util/adt"
+	builtin2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	account2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/account"
+	init2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/init"
+	verifreg2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/verifreg"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/states"
+	adt2 "github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
 )
 
 type verifregMigrator struct {

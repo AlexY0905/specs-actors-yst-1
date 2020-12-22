@@ -17,15 +17,15 @@ import (
 	assert "github.com/stretchr/testify/assert"
 	require "github.com/stretchr/testify/require"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	initact "github.com/filecoin-project/specs-actors/v2/actors/builtin/init"
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin/market"
-	mineract "github.com/filecoin-project/specs-actors/v2/actors/builtin/miner"
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin/power"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime/proof"
-	"github.com/filecoin-project/specs-actors/v2/actors/util/adt"
-	"github.com/filecoin-project/specs-actors/v2/support/mock"
-	tutil "github.com/filecoin-project/specs-actors/v2/support/testing"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	initact "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/init"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin/market"
+	mineract "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/miner"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin/power"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime/proof"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
+	"github.com/AlexY0905/specs-actors-yst-1/support/mock"
+	tutil "github.com/AlexY0905/specs-actors-yst-1/support/testing"
 )
 
 func TestExports(t *testing.T) {

@@ -1,4 +1,4 @@
-module github.com/filecoin-project/specs-actors/v2/support/tools
+module github.com/AlexY0905/specs-actors-yst-1/support/tools
 
 go 1.13
 

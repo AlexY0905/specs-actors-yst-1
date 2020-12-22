@@ -3,7 +3,7 @@ package account
 import (
 	"github.com/filecoin-project/go-address"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/builtin"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
 )
 
 type StateSummary struct {

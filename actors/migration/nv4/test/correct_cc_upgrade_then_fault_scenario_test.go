@@ -7,9 +7,9 @@ import (
 
 	"github.com/ipfs/go-cid"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/migration/nv4"
-	"github.com/filecoin-project/specs-actors/v2/actors/runtime"
-	"github.com/filecoin-project/specs-actors/v2/actors/states"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/migration/nv4"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/runtime"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/states"
 
 	addr "github.com/filecoin-project/go-address"
 	"github.com/filecoin-project/go-bitfield"
@@ -28,10 +28,10 @@ import (
 	tutil "github.com/filecoin-project/specs-actors/support/testing"
 	vm0 "github.com/filecoin-project/specs-actors/support/vm"
 
-	exported2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/exported"
-	miner2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/miner"
-	reward2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/reward"
-	vm2 "github.com/filecoin-project/specs-actors/v2/support/vm"
+	exported2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/exported"
+	miner2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/miner"
+	reward2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/reward"
+	vm2 "github.com/AlexY0905/specs-actors-yst-1/support/vm"
 )
 
 func TestMigrationCorrectsCCThenFaultIssue(t *testing.T) {

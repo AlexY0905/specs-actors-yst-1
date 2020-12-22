@@ -11,12 +11,12 @@ import (
 	cid "github.com/ipfs/go-cid"
 	cbor "github.com/ipfs/go-ipld-cbor"
 
-	builtin2 "github.com/filecoin-project/specs-actors/v2/actors/builtin"
-	power2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/power"
-	reward2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/reward"
-	"github.com/filecoin-project/specs-actors/v2/actors/states"
-	math2 "github.com/filecoin-project/specs-actors/v2/actors/util/math"
-	smoothing2 "github.com/filecoin-project/specs-actors/v2/actors/util/smoothing"
+	builtin2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin"
+	power2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/power"
+	reward2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/reward"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/states"
+	math2 "github.com/AlexY0905/specs-actors-yst-1/actors/util/math"
+	smoothing2 "github.com/AlexY0905/specs-actors-yst-1/actors/util/smoothing"
 )
 
 var (

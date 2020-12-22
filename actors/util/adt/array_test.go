@@ -7,8 +7,8 @@ import (
 	"github.com/filecoin-project/go-address"
 	"github.com/stretchr/testify/require"
 
-	"github.com/filecoin-project/specs-actors/v2/actors/util/adt"
-	"github.com/filecoin-project/specs-actors/v2/support/mock"
+	"github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
+	"github.com/AlexY0905/specs-actors-yst-1/support/mock"
 )
 
 func TestArrayNotFound(t *testing.T) {

@@ -14,9 +14,9 @@ import (
 	cbor "github.com/ipfs/go-ipld-cbor"
 	"golang.org/x/xerrors"
 
-	power2 "github.com/filecoin-project/specs-actors/v2/actors/builtin/power"
-	adt2 "github.com/filecoin-project/specs-actors/v2/actors/util/adt"
-	smoothing2 "github.com/filecoin-project/specs-actors/v2/actors/util/smoothing"
+	power2 "github.com/AlexY0905/specs-actors-yst-1/actors/builtin/power"
+	adt2 "github.com/AlexY0905/specs-actors-yst-1/actors/util/adt"
+	smoothing2 "github.com/AlexY0905/specs-actors-yst-1/actors/util/smoothing"
 )
 
 type powerMigrator struct {
